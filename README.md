@@ -2,6 +2,13 @@
 
 Call BAML functions from Elixir, using a Rust NIF.
 
+> **Note:** This package (`bamlixir`) is a fork of
+> [`baml_elixir`](https://github.com/emilsoman/baml_elixir) by
+> [Emil Soman](https://github.com/emilsoman), published under the
+> Apache-2.0 license. It is republished on Hex under a new name to
+> allow for faster iteration and release cycles. Changes made in this
+> fork are regularly fed back to the upstream repository.
+
 ## First of all, can this be used in production?
 
 Well, I use it in production. But it's way too early for you if you expect stable APIs
@@ -233,12 +240,12 @@ class DynamicEmployee {
 
 ## Installation
 
-Add baml_elixir to your mix.exs:
+Add `bamlixir` to your mix.exs:
 
 ```elixir
 def deps do
   [
-    {:baml_elixir, "~> 1.0.0-pre.24"}
+    {:bamlixir, "~> 1.1.0-baml0.219.0"}
   ]
 end
 ```

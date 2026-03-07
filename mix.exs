@@ -47,7 +47,7 @@ defmodule BamlElixir.MixProject do
       ],
       licenses: ["Apache-2.0"],
       links: %{"GitHub" => "https://github.com/bagrat/baml_elixir"},
-      maintainers: ["bagrat"]
+      maintainers: ["Emil Soman", "bagrat"]
     ]
   end
 end
